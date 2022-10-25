@@ -1,4 +1,5 @@
 #include <iostream>
+#include <map>
 
 using namespace std;
 
@@ -17,7 +18,7 @@ public:
 	}
 };
 
-enum Type { blank, snakeHead, snakeTail, ladderHead, ladderTail };
+enum Type { blank, eventHead, eventTail };
 
 class Position
 {
@@ -29,6 +30,10 @@ public:
 	{
 		return type;
 	}
+	void setType(Type t)
+	{
+		type = t;
+	}
 	void setTail(Position* tailPos)
 	{
 		tail = tailPos;
@@ -38,12 +43,37 @@ public:
 
 
 
+
+// GLOBAL VARIABLES
+Position positions[25];
+map<int, int> eventSquares = {
+
+	// SNAKES
+	{14, 3},
+	{20, 7},
+	{25, 4},
+
+	// LADDERS
+	{5, 18},
+	{8, 19},
+	{16, 23}
+};
+
 void CreateBoard()
+{
+	for (int i = 0; i < sizeof(positions) / sizeof(Position); i++)
+	{
+		if (eventSquares.count(i + 1))
+		{
+			positions[i].setType(eventHead);
+			positions[i].setTail(&positions[eventSquares.find(i)->second - 1]);
+		}
+	}
+}
 
 int main()
 {
-	Position positions[25];
-
+	CreateBoard();
 
 
 
