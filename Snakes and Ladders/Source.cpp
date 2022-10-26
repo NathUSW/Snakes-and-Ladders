@@ -24,7 +24,7 @@ class Position
 {
 private:
 	Type type;
-	Position* tail;
+	int tailPosition; // null if not of type EventSquare
 public:
 	Type getType()
 	{
@@ -34,7 +34,7 @@ public:
 	{
 		type = t;
 	}
-	void setTail(Position* tailPos)
+	void setTail(int tailPos)
 	{
 		tail = tailPos;
 	}
