@@ -3,21 +3,6 @@
 
 using namespace std;
 
-class Player
-{
-private:
-	Position position;
-public:
-	void setPosition(Position pos)
-	{
-		position = pos;
-	}
-	Position getPosition()
-	{
-		return position;
-	}
-};
-
 enum Type { blank, eventHead, eventTail };
 
 class Position
@@ -34,48 +19,77 @@ public:
 	{
 		type = t;
 	}
+	int getTail()
+	{
+		return tailPosition;
+	}
 	void setTail(int tailPos)
 	{
-		tail = tailPos;
+		tailPosition = tailPos;
 	}
 };
 
-
-
-
+class Player
+{
+private:
+	Position position;
+public:
+	void setPosition(Position pos)
+	{
+		position = pos;
+	}
+	Position getPosition()
+	{
+		return position;
+	}
+};
 
 // GLOBAL VARIABLES
 Position positions[25];
-map<int, int> eventSquares = {
-
-	// SNAKES
-	{14, 3},
-	{20, 7},
-	{25, 4},
-
-	// LADDERS
-	{5, 18},
-	{8, 19},
-	{16, 23}
-};
 
 void CreateBoard()
 {
+	/*
+	
+	This is a map of the squares containing a snake or a ladder, hereafter known as "event squares"
+	Each head of a snake or ladder has a corresponding end location, defined as an int and used to identify the position that the player should move to.
+	Every number is shifted down by one, to account for arrays beginning at 0.
+	
+	*/
+
+	map<int, int> eventSquares;
+
+	// SNAKES
+	eventSquares[13] = 2;
+	eventSquares[19] = 6;
+	eventSquares[24] = 3;
+
+	// LADDERS
+	eventSquares[4] = 17;
+	eventSquares[7] = 18;
+	eventSquares[15] = 22;
+
 	for (int i = 0; i < sizeof(positions) / sizeof(Position); i++)
 	{
-		if (eventSquares.count(i + 1))
+		if (eventSquares[i])
 		{
 			positions[i].setType(eventHead);
-			positions[i].setTail(&positions[eventSquares.find(i)->second - 1]);
+			cout << "Position " << i << " is an eventHead" << endl;
+			positions[i].setTail(eventSquares[i]);
+			positions[positions[i].getTail()].setType(eventTail);
 		}
 	}
-}
+};
 
 int main()
 {
 	CreateBoard();
 
-
+	int currentPos = 0;
+	for (Position position : positions)
+	{
+		cout << ++currentPos << " " << position.getType() << " " << position.getTail() << endl;
+	}
 
 	return 0;
-}
+};
