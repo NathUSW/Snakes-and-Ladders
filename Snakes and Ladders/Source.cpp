@@ -1,95 +1,113 @@
 #include <iostream>
-#include <map>
+#include <random>
 
 using namespace std;
 
-enum Type { blank, eventHead, eventTail };
+// GLOBAL VARIABLES - TO BE REMOVED
+bool playerWon = false;
+int winningPlayer;
 
-class Position
-{
-private:
-	Type type;
-	int tailPosition; // null if not of type EventSquare
-public:
-	Type getType()
-	{
-		return type;
-	}
-	void setType(Type t)
-	{
-		type = t;
-	}
-	int getTail()
-	{
-		return tailPosition;
-	}
-	void setTail(int tailPos)
-	{
-		tailPosition = tailPos;
-	}
-};
-
+// Implement player class with information stored about current position on the board, and whether the player is the winner, alongside corresponding getter and setter methods
 class Player
 {
 private:
-	Position position;
+	int currentSquare = 1;
+	bool winner = false;
+
 public:
-	void setPosition(Position pos)
+	int getCurrentSquare()
 	{
-		position = pos;
+		return currentSquare;
 	}
-	Position getPosition()
+	void setCurrentSquare(int x)
 	{
-		return position;
+		currentSquare = x;
 	}
-};
-
-// GLOBAL VARIABLES
-Position positions[25];
-
-void CreateBoard()
-{
-	/*
-	
-	This is a map of the squares containing a snake or a ladder, hereafter known as "event squares"
-	Each head of a snake or ladder has a corresponding end location, defined as an int and used to identify the position that the player should move to.
-	Every number is shifted down by one, to account for arrays beginning at 0.
-	
-	*/
-
-	map<int, int> eventSquares;
-
-	// SNAKES
-	eventSquares[13] = 2;
-	eventSquares[19] = 6;
-	eventSquares[24] = 3;
-
-	// LADDERS
-	eventSquares[4] = 17;
-	eventSquares[7] = 18;
-	eventSquares[15] = 22;
-
-	for (int i = 0; i < sizeof(positions) / sizeof(Position); i++)
+	void win()
 	{
-		if (eventSquares[i])
-		{
-			positions[i].setType(eventHead);
-			cout << "Position " << i << " is an eventHead" << endl;
-			positions[i].setTail(eventSquares[i]);
-			positions[positions[i].getTail()].setType(eventTail);
-		}
+		bool winner = true;
+		playerWon = true;
 	}
 };
+
+
+// Prototypes
+int RandomRange(int, int);
+int RollDice();
+void Turn(Player &player);
+
 
 int main()
 {
-	CreateBoard();
+	// Seed random number generator
+	srand(static_cast<unsigned int>(time(NULL)));
+	rand(); // Visual Studio bug fix
 
-	int currentPos = 0;
-	for (Position position : positions)
+	// Get total players in game, up to a maximum of four
+	int totalPlayers;
+	cout << "How many players are playing?" << endl;
+	cin >> totalPlayers;
+
+	// Clear cin buffer to prevent overloads
+	cin.clear();
+	cin.ignore(INT_MAX, '\n');
+
+	// Create list of players
+	Player players[4];
+
+	// While nobody has won the game
+	while (!playerWon)
 	{
-		cout << ++currentPos << " " << position.getType() << " " << position.getTail() << endl;
+		// Loop through the array of players
+		for (int i = 0; i < sizeof(players) / sizeof(Player); i++)
+		{
+			// Simulate a player rolling the dice, and move the player on the board accordingly
+			Turn(players[i]);
+
+			// Check if a player has won, record the winning player, and exit the loop
+			if (playerWon)
+			{
+				winningPlayer = i;
+				break;
+			}
+		}
 	}
 
+	// When a player has won, print out who won
+	cout << "Player " << winningPlayer << " won the game!" << endl;
+
 	return 0;
-};
+}
+
+void Turn(Player &player)
+{
+	int dice = RollDice();
+	cout << dice << endl;
+
+	if (player.getCurrentSquare() + dice > 25)
+	{
+		// Do nothing, the player cannot move
+		return;
+	}
+	else if (player.getCurrentSquare() + dice == 25)
+	{
+		// Player has reached the final square, win the game
+		player.win();
+	}
+	else
+	{
+		// Increment the player's position on the board by the number on the dice
+		player.setCurrentSquare(player.getCurrentSquare() + dice);
+	}
+}
+
+int RollDice()
+{
+	return RandomRange(1, 6);
+}
+
+int RandomRange(int min, int max)
+{
+	int x = rand() % (max - min + 1) + min;
+	return x;
+}
