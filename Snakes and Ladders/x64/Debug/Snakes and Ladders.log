@@ -1,2 +1,202 @@
-﻿  Source.cpp
-  Snakes and Ladders.vcxproj -> Y:\Documents\Snakes-and-Ladders\x64\Debug\Snakes and Ladders.exe
+﻿  Board.cpp
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,9): error C3646: 'currentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,9): error C3646: 'getCurrentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,25): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,27): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(15,24): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,9): error C3646: 'head': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,9): error C3646: 'tail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,9): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,8): error C2535: 'Tunnel::Tunnel(void)': member function already defined or declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(13): message : see declaration of 'Tunnel::Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,9): error C3646: 'getHead': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,9): error C3646: 'getTail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.h(22,2): warning C4091: 'static ': ignored on left of 'Board' when no variable is declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(15,52): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(15,52): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(16,52): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(16,52): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(17,52): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(17,52): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(18,53): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(18,53): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(19,53): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(19,53): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(20,54): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.cpp(20,54): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+  Dice.cpp
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Dice.h(7,2): warning C4091: 'static ': ignored on left of 'Dice' when no variable is declared
+  Event.cpp
+  Game.cpp
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,9): error C3646: 'currentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,9): error C3646: 'getCurrentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,25): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,27): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(15,24): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,9): error C3646: 'head': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,9): error C3646: 'tail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,9): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,8): error C2535: 'Tunnel::Tunnel(void)': member function already defined or declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(13): message : see declaration of 'Tunnel::Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,9): error C3646: 'getHead': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,9): error C3646: 'getTail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.h(22,2): warning C4091: 'static ': ignored on left of 'Board' when no variable is declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Dice.h(7,2): warning C4091: 'static ': ignored on left of 'Dice' when no variable is declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(4,1): error C2011: 'Player': 'class' type redefinition
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Game.cpp(23,31): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Game.cpp(30,10): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+  old.cpp
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,9): error C3646: 'currentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,9): error C3646: 'getCurrentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,25): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,27): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(15,24): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,9): error C3646: 'head': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,9): error C3646: 'tail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,9): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,8): error C2535: 'Tunnel::Tunnel(void)': member function already defined or declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(13): message : see declaration of 'Tunnel::Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,9): error C3646: 'getHead': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,9): error C3646: 'getTail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.h(22,2): warning C4091: 'static ': ignored on left of 'Board' when no variable is declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Dice.h(7,2): warning C4091: 'static ': ignored on left of 'Dice' when no variable is declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(4,1): error C2011: 'Player': 'class' type redefinition
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\old.cpp(46,9): error C2079: 'players' uses undefined class 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\old.cpp(57,18): error C2109: subscript requires array or pointer type
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\old.cpp(78,22): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\old.cpp(89,9): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\old.cpp(96,9): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\old.cpp(97,59): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\old.cpp(108,10): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\old.cpp(109,60): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+  Player.cpp
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,9): error C3646: 'currentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,9): error C3646: 'getCurrentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,25): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,27): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(15,24): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,9): error C3646: 'head': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,9): error C3646: 'tail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,9): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,8): error C2535: 'Tunnel::Tunnel(void)': member function already defined or declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(13): message : see declaration of 'Tunnel::Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,9): error C3646: 'getHead': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,9): error C3646: 'getTail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(4,1): error C2011: 'Player': 'class' type redefinition
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.h(22,2): warning C4091: 'static ': ignored on left of 'Board' when no variable is declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(4,9): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(5,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(7,2): error C2065: 'id': undeclared identifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(7,7): error C2065: 'count': undeclared identifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(8,2): error C2065: 'count': undeclared identifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(11,2): error C2065: 'currentSquare': undeclared identifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(14,2): error C2065: 'winner': undeclared identifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(15,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(17,16): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(19,9): error C2065: 'currentSquare': undeclared identifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(22,14): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(24,2): error C2065: 'currentSquare': undeclared identifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.cpp(27,14): error C2027: use of undefined type 'Player'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+  Source.cpp
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,9): error C3646: 'currentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,9): error C3646: 'getCurrentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,25): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,27): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(15,24): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,9): error C3646: 'head': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,9): error C3646: 'tail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,9): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,8): error C2535: 'Tunnel::Tunnel(void)': member function already defined or declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(13): message : see declaration of 'Tunnel::Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,9): error C3646: 'getHead': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,9): error C3646: 'getTail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.h(22,2): warning C4091: 'static ': ignored on left of 'Board' when no variable is declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Dice.h(7,2): warning C4091: 'static ': ignored on left of 'Dice' when no variable is declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(4,1): error C2011: 'Player': 'class' type redefinition
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(3): message : see declaration of 'Player'
+  Square.cpp
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,9): error C3646: 'currentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,9): error C3646: 'getCurrentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,25): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,27): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(15,24): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,9): error C3646: 'head': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(7,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,9): error C3646: 'tail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,9): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(15,8): error C2535: 'Tunnel::Tunnel(void)': member function already defined or declared
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(13): message : see declaration of 'Tunnel::Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,9): error C3646: 'getHead': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(16,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,9): error C3646: 'getTail': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,16): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Tunnel.h(17,18): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Square.cpp(3,9): error C2600: 'Square::Square': cannot define a compiler-generated special member function (must be declared in the class first)
+  Tunnel.cpp
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,9): error C3646: 'currentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(8,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,9): error C3646: 'getCurrentSquare': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,25): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(14,27): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Player.h(15,24): error C2061: syntax error: identifier 'Square'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Square.h(13,9): error C3646: 'tunnel': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Square.h(13,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Square.h(17,9): error C3646: 'getTunnel': unknown override specifier
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Square.h(17,18): error C2059: syntax error: '('
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Square.h(17,20): error C2238: unexpected token(s) preceding ';'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Square.h(18,17): error C2061: syntax error: identifier 'Tunnel'
+D:\University Projects\Snakes-and-Ladders\Snakes and Ladders\Board.h(22,2): warning C4091: 'static ': ignored on left of 'Board' when no variable is declared
+  Generating Code...

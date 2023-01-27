@@ -20,3 +20,8 @@ Tunnel Square::getTunnel()
 {
 	return tunnel;
 }
+
+void Square::setTunnel(Tunnel t)
+{
+	tunnel = t;
+}

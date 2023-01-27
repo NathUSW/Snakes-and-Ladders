@@ -146,6 +146,7 @@
     <ClInclude Include="Player.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="Tunnel.h" />
+    <ClInclude Include="Type.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

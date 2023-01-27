@@ -1,4 +1,6 @@
 #include "Square.h"
+class Square;
+class Tunnel;
 
 class Player
 {

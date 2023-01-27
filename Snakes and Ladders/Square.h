@@ -2,6 +2,9 @@
 #include "Player.h"
 #include "Tunnel.h"
 
+class Player;
+class Tunnel;
+
 class Square
 {
 private:
@@ -15,5 +18,6 @@ public:
 	int getID();
 	Player getPlayer();
 	Tunnel getTunnel();
+	void setTunnel(Tunnel);
 };
 

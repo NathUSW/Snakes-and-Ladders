@@ -12,7 +12,7 @@ void Game::startGame()
 	// Call board constructor
 	Board::Board();
 
-	for (int i = 0; i < sizeof(players) / sizeof(Player); i++)
+	for (int i = 0; i < players.size(); i++)
 	{
 		turn(players[i]);
 	}
@@ -37,4 +37,17 @@ void Game::turn(Player &player)
 {
 	int roll = Dice::roll();
 
+	movePlayer(player, roll);
 }
+
+/*void Game::checkPositions()
+{
+	for (int i = 0; i < players.size(); i++)
+	{
+		Square position = players[i].getCurrentSquare();
+		if (position.getTunnel())
+		{
+
+		}
+	}
+}*/
